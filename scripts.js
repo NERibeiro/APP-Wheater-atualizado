@@ -52,6 +52,7 @@ async function alterarBackground(cidade) {
 }
 
 function cliqueiNoBotao() {
+    const inputCidade = document.querySelector(".input-cidade");
     const cidade = document.querySelector(".input-cidade").value.trim();
 
     if (cidade === "") {
@@ -60,4 +61,6 @@ function cliqueiNoBotao() {
     }
 
     buscarCidade(cidade);
+    inputCidade.value = ""; // Limpa o campo de entrada após a busca
+
 }
