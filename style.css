@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background-image: url();
+   
 }
 
 body {
+    background-image: url(./img/nasa-Q1p7bh3SHj8-unsplash.jpg);
     height: 100vh;
     width: 100vw;
     display: flex;
